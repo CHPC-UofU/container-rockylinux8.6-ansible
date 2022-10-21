@@ -18,7 +18,7 @@ This image is built on GitHub automatically any time a commit is made or merged 
 3. Build the image:
 
    ```shell
-   podman build -t rockylinux8.6-ansible .   
+   podman build --file Containerfile --tag rockylinux8.6-ansible .   
    ```
 
 ## How to Use
