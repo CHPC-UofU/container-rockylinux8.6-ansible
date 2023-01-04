@@ -1,6 +1,6 @@
 # Base image:
 FROM docker.io/library/rockylinux:8.6
-
+ 
 # Environmental variables:
 ENV pip_packages "ansible"
 
